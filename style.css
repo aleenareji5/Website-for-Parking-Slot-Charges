@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to right,black 20% ,grey );
+    color: white;
+    margin: 20px 80px 15px 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: wheat;
+
+}
+#restobud{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: green;
+}
+#box{
+    margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+#box:hover{
+    background: linear-gradient(black ,rgb(106, 212, 216),rgb(24, 36, 46));
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parking{
+    font-size: 25px;
+    
+}
+#input{
+    cursor: pointer;
+}
+#calculate{
+    cursor: pointer;
+}
+#calculate:hover{
+    background-color: green;
+}
